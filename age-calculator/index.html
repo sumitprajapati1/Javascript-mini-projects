@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator </title>
+    <link href="../src/output.css" rel="stylesheet">
+</head>
+<body class="m-auto p-2 font-sans bg-slate-200 flex items-center justify-center h-screen">
+    <div class="container bg-white p-5 max-w-xl m-0 border-r-4 mt-12">
+        <h1 class="text-3xl font-semibold text-center mt-0 mb-7"> Calculator </h1>
+            <div class="form flex flex-col align-center">
+                <label class="font-bold mb-3"  for="birthday">Enter Your date of birth :</label>
+                <input class="p-2 border-solid border-r-4 w-[100%] max-w-xs" type="date" id="birthday" name="birthday"/>
+                <button class="bg-blue-500 text-white border-none py-2 px-4 rounded mt-2 cursor-pointer transition duration-300 ease-in-out hover:bg-blue-700" id="btn">
+                    Calculate Age
+                </button>
+                <p id="result" class="mt-5 text-2xl font-bold">
+                    Your age is:
+                </p>         
+            </div>
+    </div>
+    <script src="index.js"></script>  
+</body>
+</html>
