@@ -1,0 +1,1 @@
+This repository contains a collection of numerous beginner-level JavaScript projects focusing on **DOM manipulation**, **event handling**, and other basic **JavaScript** concepts. These mini-projects are perfect for anyone looking to learn and practice **JavaScript fundamentals**.
